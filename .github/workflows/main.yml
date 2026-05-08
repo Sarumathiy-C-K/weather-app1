@@ -1,4 +1,4 @@
-  name: Deploy Website
+name: Deploy Website
 
 on:
   push:
@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-
   build:
 
     runs-on: ubuntu-latest
